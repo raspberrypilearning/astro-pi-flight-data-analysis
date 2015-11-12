@@ -36,7 +36,7 @@ So all measurements on a single row were taken at the time shown in the time sta
 
 Here is a list of the columns you'll have:
 
-Column|Meaning|Source
+Column name|Meaning|Source
 ---|---|---
 ROW_ID|A unique identifying number for each row. If you're collaborating with other people it may be useful to have a way to specify the exact row number when you find something interesting in the data.|Database auto increment.
 temp_cpu|The temperature of the Raspberry Pi B+ CPU in degrees *Celsius*.|Raspberry Pi GPU mailbox.
@@ -60,6 +60,13 @@ reset|A copy of the Raspberry Pi CPU reset register. This is useful for looking 
 time_stamp|The time at which the sensors were measured and the row was created.|Astro Pi real time clock.
 
 There is an excillent guide to help you understand the sensors [here](https://www.raspberrypi.org/learning/astro-pi-guide/) if you need to familiarise yourself.
+
+## Example CSV file
+
+[Download](data/astro_pi_data_20150824_085954.zip?raw=true)
+
+To test you can load this kind of file try downloading this example, it's inside a zip file which you will need to extract first.
+
 
 
 ## Place holder
