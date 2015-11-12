@@ -20,7 +20,9 @@ You can load a CSV file with any spreadsheet program, such as:
 - Google Sheets
 - Lotus 1-2-3
 
-## What data Tim Peake will make available
+## What data will Tim Peake give me?
+
+Lots.
 
 
 ## Place holder
