@@ -6,11 +6,9 @@ The two Astro Pi flight computers on board the ISS are programmed to run the com
 
 Because the sensor readings are being taken so frequently you'll be able to analyse them to look for lots of interesting activity on the station and possibly strange anomalies that Tim will want to know about!
 
-We anticipate the Astro Pis will be left in this mode for at least a week, probably more. The product of this will be a large CSV file, created by Tim, which **you can download** and analyse. To help you get started with this we have obtained some example sensor readings from the ISS life support system. These show what certain activities will look like, when ploted on a graph, so that you can look for something similar in the Astro Pi data.
+We anticipate the Astro Pis will be left in this mode for at least a week, probably more. The product of this will be a large CSV files, created by Tim, which **you can download** and analyse. To help you get started with this we have obtained some example sensor readings from the ISS life support system. These show what certain activities will look like, when ploted on a graph, so that you can look for something similar in the Astro Pi data.
 
-Please note Tim Peake's CSV file will not be available until he has deployed the Astro Pi flight units, this will not happen until January 2016 at the earliest. Keep checking the Astro Pi website for [updates](http://astro-pi.org/updates/).
-
-## What is a CSV file?
+## What is a CSV files?
 
 CSV stands for comma separated values ([more info](https://en.wikipedia.org/wiki/Comma-separated_values)). It's a very old file format used for storing tables of information as plain text. So in some ways it's very similar to an Excel spreadsheet but more basic with less features.
 
@@ -22,7 +20,7 @@ You can load a CSV file with any spreadsheet program, such as:
 - Google Sheets
 - Lotus 1-2-3
 
-## What will be in the CSV file?
+## What will be in the CSV files?
 
 The CSV file will contain sensor measurements in rows and columns. The columns each represent a different type of sensor with an extra column to record a time stamp. Each *row* gives you a reading for every sensor with the time stamp showing when the readings were taken. So you can essentially use this to look at how the sensor readings are changing over time.
 
@@ -63,18 +61,38 @@ time_stamp|The time at which the sensors were measured and the row was created.|
 
 There is an excillent guide to help you understand the sensors [here](https://www.raspberrypi.org/learning/astro-pi-guide/) if you need to familiarise yourself.
 
-## Example CSV file
+## When can I get the CSV files?
 
-[Download](data/astro_pi_data_20150824_085954.zip?raw=true)
+Several things need to happen before this data will be available. Tim needs to get to the ISS and deploy the Astro Pi computers (his launch date is December 15th). Once deployed they need to complete the processing of the programs that won the Astro Pi Competition, each one has a week of run time allocated. Only then will the Astro Pis enter flight recording mode where this data will be captured.
+
+Then after another week, or possibly longer Tim will download the CSV file and we will make it available on the Astro Pi website. Keep checking back for [updates](http://astro-pi.org/updates/). So, currently, it is not possible for us to provide an exact date since Tim's on orbit schedule is not known to us. We anticipate it will be in February or March 2016 though.
+
+## Example CSV file
 
 To test you can load this kind of file try downloading this example, it's inside a zip file which you will need to extract first.
 
+[Download](data/astro_pi_data_20150824_085954.zip?raw=true)
+
+If you need help loading the file we suggest to search the Internet for help specifically related to the spreadsheet software you're using.
+
+## How do I analyse the data?
+
+- Short answer
+
+  Any way you like!
+
+- Long answer
+
+  There are many ways you can go about it. The easiest way is to choose one or two sensors and use the *chart* function of your spreadsheet software to plot their columns on a line graph against the time stamp. Then just visually inspect the lines for sudden, drastic or gradual changes. Try to think about what would be causing them.
+  
+  If you need help here just go onto [YouTube](https://www.youtube.com/) and search for *how to plot a line graph in excel* for example.
+  
+  You could also look into using analytical software packages like [Mathematica](https://www.wolfram.com/mathematica/) or [MATLAB](http://uk.mathworks.com/), both of which are free on the Raspberry Pi. It may be possible to produce some really interesting visualisations of the data using these.
+  
+  The time stamp column could also be used to [look up](http://www.isstracker.com/historical) the location of the ISS to add a mapping dimension to your analysis. There will be enough data to give you good global coverage and you may be able to show that some sensor readings are affected by the location of the station.
+
+## What to look for
 
 
-## Place holder
-- When this data will become available for download
-- How to analyse the data
-- What interesting anomalies to look for in the data
-
-## What next?
+## What to do when you find something
 
