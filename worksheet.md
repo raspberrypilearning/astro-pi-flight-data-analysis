@@ -6,7 +6,7 @@ The two Astro Pi flight computers on board the ISS are programmed to run the com
 
 Because the sensor readings are being taken so frequently you'll be able to analyse them to look for lots of interesting activity on the station and possibly strange anomalies that Tim will want to know about!
 
-We anticipate the Astro Pis will be left in this mode for at least a week, probably more. The product of this will be a large CSV file, created by Tim, which **you can download** and analyse. To help you get started with this we have obtained some example sensor readings from the ISS life support system. These show examples of what certain activities will look like, when you plot the sensor data on a graph, so that you can look for something similar in the Astro Pi data.
+We anticipate the Astro Pis will be left in this mode for at least a week, probably more. The product of this will be a large CSV file, created by Tim, which **you can download** and analyse. To help you get started with this we have obtained some example sensor readings from the ISS life support system. These show what certain activities will look like, when ploted on a graph, so that you can look for something similar in the Astro Pi data.
 
 Please note Tim Peake's CSV file will not be available until he has deployed the Astro Pi flight units, this will not happen until January 2016 at the earliest. Keep checking the Astro Pi website for [updates](http://astro-pi.org/updates/).
 
