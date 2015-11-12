@@ -2,7 +2,7 @@
 
 ![](images/columbus.jpg)
 
-The two Astro Pi flight computers on board the ISS are programmed to run the competition winning programs as part of an automatic sequence.  Each program will have one week of run time. After this sequence has completed the Astro Pis will enter a flight recorder mode where they record sensor readings into a database every 10 seconds.
+The two Astro Pi flight computers on board the ISS are programmed to run the competition [winning programs](http://astro-pi.org/competition/winners/) as part of an automatic sequence.  Each program will have one week of run time. After this sequence has completed the Astro Pis will enter a flight recorder mode where they record sensor readings into a database every 10 seconds.
 
 Because the sensor readings are being taken so frequently you'll be able to analyse them to look for lots of interesting activity on the station and possibly strange anomalies that Tim will want to know about!
 
