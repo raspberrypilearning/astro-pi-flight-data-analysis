@@ -20,9 +20,9 @@ You can load a CSV file with any spreadsheet program, such as:
 - Google Sheets
 - Lotus 1-2-3
 
-## What data will Tim Peake give me?
+## What will be in the CSV file?
 
-Lots.
+The CSV file will contain data in rows and columns. The columns each represent a different type of sensor with one column to record a time stamp. Each *row* gives you a reading for every sensor and the time stamp shows when the readings were taken. So you can essentially use this to look at how the sensor readings are changing over time.
 
 
 ## Place holder
