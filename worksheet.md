@@ -93,9 +93,19 @@ If you need help loading the file we suggest to search the Internet for help spe
 
 ## What to look for
 
+Courtesy of ESA and the UK Space Agency we have obtained some example sensor readings from the ISS life support system. These show what certain activities will look like, when ploted on a graph, so that you can look for something similar in the Astro Pi data.
+
 ### Crew activity near the Astro Pi
 
+Humidity and temperature are two great indicators of crew activity. The bodies of the crew naturally radiate heat and through perspiration or breathing they release moisture into the air that increases relative humidity. The graph below shows the crew deploying the Muscle Atrophy Research and Exercise System ([MARES](http://www.esa.int/Our_Activities/Human_Spaceflight/Columbus/Muscle_Atrophy_Research_and_Exercise_System)) payload in the Columbus module. 
+
+Time is on the horizontal axis with relative humidity on the vertical. They start working at 9:00 and you can see that relative humidity starts to increase. They go on their lunch break at about 12:30.
+
 ![](images/MARES_commissioning_humidity.png)
+
+This graph shows the temperature for the same activity, you can see there is some variation around the time when the crew is working however the change is only minor at less than one degree.
+
+Time is on the horizontal axis with temperature on the vertical.
 
 ![](images/MARES_commissioning_temperature.png)
 
