@@ -149,11 +149,11 @@ To avoid this happening (or rather to keep on delaying it) the ISS is regularly 
 
 ![](images/reboost_firing.jpg)
 
-The graph below shows time on the horizontal axis and the altitude of the ISS in km on the vertical. You can see that, every now and again, the altitude jumps back up. These are the reboosts and you can see they happen in a somewhat irregular way. On the whole one or two occur per month.
+The graph below shows time on the horizontal axis and the altitude of the ISS in km on the vertical. You can see that, every now and again, the altitude jumps back up. These are the reboosts and you can see they happen in a somewhat irregular way. On the whole one or two occur per month. Go [here](http://www.heavens-above.com/IssHeight.aspx) for the latest graph.
 
 ![](images/ISS_altitude.png)
 
-The Astro Pi cannot measure altitude so this will not be part of the CSV data however when an ISS reboost occurs it will be able to detect the force of **acceleration** being applied by the spacecraft thrusters. In microgravity the accelerometer X, Y and Z axis should always read close to zero. However at least one or two axes will detect some force when the thrusters are being fired.
+The Astro Pi cannot measure altitude from inside the ISS so this will not be part of the CSV data. However when an ISS reboost occurs it will be able to detect the force of **acceleration** being applied by the spacecraft thrusters. In microgravity the accelerometer X, Y and Z axis should always read close to zero Gs. However at least one or two axes will detect some force when the thrusters are being fired.
 
 The crew say that they can feel when a reboost is happening so the Sense HAT [accelerometer](https://www.raspberrypi.org/learning/astro-pi-guide/sensors/movement.md) should definitely be able to detect it. Therefore you should be able to work out when ISS reboosts occurred and how long they lasted.
 
