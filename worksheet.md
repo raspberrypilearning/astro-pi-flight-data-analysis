@@ -97,19 +97,21 @@ Courtesy of ESA and the UK Space Agency we have obtained some example sensor rea
 
 ### Crew activity near the Astro Pi
 
-Humidity and temperature are two great indicators of crew activity. The bodies of the crew naturally radiate heat and through perspiration or breathing they release moisture into the air that increases relative humidity. The graph below shows the crew deploying the Muscle Atrophy Research and Exercise System ([MARES](http://www.esa.int/Our_Activities/Human_Spaceflight/Columbus/Muscle_Atrophy_Research_and_Exercise_System)) payload in the Columbus module. 
+[Humidity](https://www.raspberrypi.org/learning/astro-pi-guide/sensors/humidity.md) and [temperature](https://www.raspberrypi.org/learning/astro-pi-guide/sensors/temperature.md) are two great indicators of crew activity. The bodies of the crew naturally radiate heat and through perspiration or breathing they release moisture into the air that increases relative humidity. The graph below shows the crew deploying the Muscle Atrophy Research and Exercise System ([MARES](http://www.esa.int/Our_Activities/Human_Spaceflight/Columbus/Muscle_Atrophy_Research_and_Exercise_System)) in the Columbus module. 
 
-Time is on the horizontal axis with relative humidity on the vertical. They start working at 9:00 and you can see that relative humidity starts to increase. They go on their lunch break at about 12:30.
+Time is on the horizontal axis with relative humidity on the vertical. They start working at 9:00 and you can see that relative humidity starts to increase. They go on their lunch break at about 12:30. Some more work starts around 16:30.
 
 ![](images/MARES_commissioning_humidity.png)
 
-This graph shows the temperature for the same activity, you can see there is some variation around the time when the crew is working however the change is only minor at less than one degree.
+The next graph shows the temperature for the same activity, you can see there is some variation around the time when the crew is working however the change is only minor at less than one degree. So you should perhaps consider temperature as a less reliable indicator of crew activity.
 
 Time is on the horizontal axis with temperature on the vertical.
 
 ![](images/MARES_commissioning_temperature.png)
 
 ### CHX Dry Outs
+
+CHX stands of Cabin Heat Exchanger. The heat exchanger is a consumable item that needs to be replaced once every six weeks. A CHX dry-out is the name of the maintenance activity for when they change from one CHX to the next. This is done in order to prevent microbial or fungal growth within the unit that could damage it or pose a health risk to the crew.
 
 ![](images/CHX_dryout_humidity.png)
 
