@@ -143,7 +143,9 @@ The first graph below shows O2 content in the air, however the second one shows 
 
 ### ISS Re-boost
 
-![](images/atv_reboost.jpg)
+The ISS is in low Earth orbit (LEO) and even at the altitude of 400 km there is still a tiny amount of atmosphere present. That air creates drag on the ISS which causes its orbit to slowly decay over time. This means that it's constantly losing altitude and if left unchecked it would eventually re-enter the atmosphere and burn up like a meteorite.
+
+![](images/reboost_firing.jpg)
 
 ### South Atlantic Anomaly
 
