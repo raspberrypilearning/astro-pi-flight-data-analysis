@@ -109,13 +109,30 @@ Time is on the horizontal axis with temperature on the vertical.
 
 ![](images/MARES_commissioning_temperature.png)
 
-### CHX Dry Outs
+### CHX Dry-Outs
 
-CHX stands of Cabin Heat Exchanger. The heat exchanger is a consumable item that needs to be replaced once every six weeks. A CHX dry-out is the name of the maintenance activity for when they change from one CHX to the next. This is done in order to prevent microbial or fungal growth within the unit that could damage it or pose a health risk to the crew.
+CHX stands for Cabin Heat Exchanger. The CHX *core* is a consumable item that needs to be replaced once every six weeks or so. Because the core has water flowing through it constantly regular dry-outs are required to prevent microbial or fungal growth that could damage the CHX or pose a health risk to the crew. So a *CHX dry-out* is the name of the maintenance activity where they change from one CHX core to the next.
+
+During this maintenance the water flowing through the CHX core is diverted to a backup unit to allow the core to dry out and be replaced. This causes a drop in cabin temperature, that reduces how much moisture can be suspended in the air, which in turn increases *relative humidity*. The plot below shows the dry-out starting at about 07:45.
+
+Time is on the horizontal axis with temperature on the vertical.
+
+![](images/CHX_dryout_temperature.png)
+
+At the same time a marked increase in relative humidity is recorded. Time is on the horizontal axis with relative humidity on the vertical.
 
 ![](images/CHX_dryout_humidity.png)
 
-![](images/CHX_dryout_temperature.png)
+
+
+
+
+
+
+
+
+
+
 
 ![](images/CHX_dryout_temperature_humidity_dewpoint.png)
 
