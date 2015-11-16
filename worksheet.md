@@ -89,10 +89,31 @@ If you need help loading the file we suggest to search the Internet for help spe
   
   You could also look into using analytical software packages like [Mathematica](https://www.wolfram.com/mathematica/) or [MATLAB](http://uk.mathworks.com/), both of which are free on the Raspberry Pi. It may be possible to produce some really interesting visualisations of the data using these.
   
-  The time stamp column could also be used to [look up](http://www.isstracker.com/historical) the location of the ISS to add a mapping dimension to your analysis. There will be enough data to give you good global coverage and you may be able to show that some sensor readings are affected by the location of the station.
+  The time stamp column could also be used to [look up](http://www.isstracker.com/historical) the location of the ISS to add a geographical dimension to your analysis. There will be enough data to give you good global coverage and you may be able to show that some sensor readings are affected by the location of the station.
 
 ## What to look for
 
+### Crew activity near the Astro Pi
+
+![](images/MARES_commissioning_humidity.png)
+
+![](images/MARES_commissioning_temperature.png)
+
+### CHX Dry Outs
+
+![](images/CHX_dryout_humidity.png)
+
+![](images/CHX_dryout_temperature.png)
+
+![](images/CHX_dryout_temperature_humidity_dewpoint.png)
+
+### O2 Re-pressurisation 
+
+![](images/Repress_O2_pressure_total_pressure.png)
+
+### ISS Re-boost
+
+### South Atlantic Anomaly
 
 ## What to do when you find something
 
