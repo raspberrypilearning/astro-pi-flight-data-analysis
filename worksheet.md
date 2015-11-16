@@ -63,9 +63,9 @@ There is an excillent guide to help you understand the sensors [here](https://ww
 
 ## When can I get the CSV files?
 
-Several things need to happen before this data will be available. Tim needs to get to the ISS and deploy the Astro Pi computers (his launch date is December 15th). Once deployed they need to complete the processing of the programs that won the Astro Pi Competition, each one has a week of run time allocated. Only then will the Astro Pis enter flight recording mode where this data will be captured.
+Several things need to happen before this data will be available. Tim needs to get to the ISS and deploy the Astro Pi computers (his launch date is December 15th 2015). Once deployed they need to complete the processing of the programs that won the Astro Pi Competition, each one has a week of run time allocated. Only then will the Astro Pis enter flight recording mode where this data will be captured.
 
-Then after another week, or possibly longer Tim will download the CSV file and we will make it available on the Astro Pi website. Keep checking back for [updates](http://astro-pi.org/updates/). So, currently, it is not possible for us to provide an exact date since Tim's on orbit schedule is not known to us. We anticipate it will be in February or March 2016 though.
+Then after another week, or possibly longer, Tim will download the CSV files and we will make them available on the Astro Pi website. Keep checking back for [updates](http://astro-pi.org/updates/). So, currently, it is not possible for us to provide an exact date since Tim's on orbit schedule is not known to us. We anticipate it will be in February or March 2016 though.
 
 ## Example CSV file
 
@@ -95,9 +95,9 @@ If you need help loading the file we suggest to search the Internet for help spe
 
 ## What to look for
 
-Courtesy of ESA and the UK Space Agency we have obtained some example sensor readings from the ISS life support system. These show what certain activities will look like, when ploted on a graph, so that you can look for something similar in the Astro Pi data.
+Courtesy of the [German Aerospace Center](http://www.dlr.de/) and the [UK Space Agency](https://www.gov.uk/government/organisations/uk-space-agency) we have obtained some example sensor readings from the ISS life support system. These show what certain activities will look like, when ploted on a graph, so that you can look for something similar in the Astro Pi data.
 
-### Crew activity near the Astro Pi
+### Crew activity
 
 [Humidity](https://www.raspberrypi.org/learning/astro-pi-guide/sensors/humidity.md) and [temperature](https://www.raspberrypi.org/learning/astro-pi-guide/sensors/temperature.md) are two great indicators of crew activity. The bodies of the crew naturally radiate heat and through perspiration or breathing they release moisture into the air that increases relative humidity. The graph below shows the crew deploying the Muscle Atrophy Research and Exercise System ([MARES](http://www.esa.int/Our_Activities/Human_Spaceflight/Columbus/Muscle_Atrophy_Research_and_Exercise_System)) in the Columbus module. 
 
@@ -105,7 +105,7 @@ Time is on the horizontal axis with relative humidity on the vertical. They star
 
 ![](images/MARES_commissioning_humidity.png)
 
-The next graph shows the temperature for the same activity, you can see there is some variation around the time when the crew is working however the change is only minor at less than one degree. So you should perhaps consider temperature as a less reliable indicator of crew activity.
+The next graph shows the temperature for the same activity, you can see there is some variation around the time when the crew are working however the change is only minor at less than one degree. So you should perhaps consider temperature as a less reliable indicator of crew activity.
 
 Time is on the horizontal axis with temperature on the vertical.
 
@@ -115,13 +115,13 @@ Time is on the horizontal axis with temperature on the vertical.
 
 CHX stands for Cabin Heat Exchanger. The CHX *core* is a consumable item that needs to be replaced once every six weeks or so. Because the core has water flowing through it constantly regular dry-outs are required to prevent microbial or fungal growth that could damage the CHX or pose a health risk to the crew. So a *CHX dry-out* is the name of the maintenance activity where they change from one CHX core to the next.
 
-During this maintenance the water flowing through the CHX core is diverted to a backup unit to allow the core to dry out so that it can be replaced. This causes a drop in cabin temperature, that reduces how much moisture can be suspended in the air, which in turn increases *relative humidity*. The temperature plot below shows the dry-out starting at about 07:45.
+During this maintenance the water flowing through the CHX core is diverted to a backup unit to allow the core to dry out so that it can be replaced. This causes a drop in cabin [temperature](https://www.raspberrypi.org/learning/astro-pi-guide/sensors/temperature.md), that reduces how much moisture can be suspended in the air, which in turn increases relative [humidity](https://www.raspberrypi.org/learning/astro-pi-guide/sensors/humidity.md). The temperature plot below shows the dry-out starting at about 07:45.
 
 Time is on the horizontal axis with temperature on the vertical.
 
 ![](images/CHX_dryout_temperature.png)
 
-At the same time a marked increase in relative humidity is recorded due to the air being less able to suspend water vapour. Time is on the horizontal axis with relative humidity on the vertical.
+At the same time a marked increase in relative humidity is recorded due to the air being less able to suspend water vapour. Time is on the horizontal axis with relative [humidity](https://www.raspberrypi.org/learning/astro-pi-guide/sensors/humidity.md) on the vertical.
 
 ![](images/CHX_dryout_humidity.png)
 
@@ -131,17 +131,19 @@ Note how long it takes for the measurements to get back to normal. These events 
 
 ### O2 Re-pressurisation 
 
-An O2 re-pressurisation is also a regular maintenance activity that occurs once every few months. The ISS has an oxygen recycling and carbon dioxide scrubbing system however periodically a bottle of compressed oxygen is delivered to the ISS on a Progress cargo vehicle. This is then connected to the life support system and slowly released to top-up the oxygen in the ecosystem.
+An O2 re-pressurisation is also a regular maintenance activity that occurs once every few months. The ISS has an oxygen recycling and carbon dioxide scrubbing system however periodically a bottle of compressed oxygen is delivered to the ISS on a [Progress](https://en.wikipedia.org/wiki/Progress_%28spacecraft%29) cargo vehicle. This is then connected to the life support system and slowly released to top-up the oxygen in the ecosystem over the course of an hour or two.
 
 When this happens an increase in atmospheric pressure is recorded as well as in O2 content of the air. The Sense HAT cannot measure O2 content but it can measure air [pressure](https://www.raspberrypi.org/learning/astro-pi-guide/sensors/pressure.md), so you should be able to identify when these re-pressurisation events occur in the CSV data.
 
-The first graph below shows O2 content in the air, however the second one shows total air pressure. Time is on the horizontal axis with millimeters of mercury on the vertical. Note that the pressure data in the CSV files will be in *millibars* since this is the unit used by the Sense HAT.
+The first graph below shows O2 content in the air, however the second one shows total air pressure. Time is on the horizontal axis with *millimeters of mercury* on the vertical. Note that the pressure data in the CSV files will be in *millibars* since this is the unit used by the Sense HAT.
 
 **1 atmosphere = 760 millimeters of mercury = 1013.25 millibars**
 
 ![](images/Repress_O2_pressure_total_pressure.png)
 
 ### ISS Re-boost
+
+![](images/atv_reboost.jpg)
 
 ### South Atlantic Anomaly
 
