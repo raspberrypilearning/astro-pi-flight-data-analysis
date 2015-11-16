@@ -155,7 +155,7 @@ The graph below shows time on the horizontal axis and the altitude of the ISS in
 
 The Astro Pi cannot measure altitude so this will not be part of the CSV data however when an ISS reboost occurs it will be able to detect the force of **acceleration** being applied by the spacecraft thrusters. In microgravity the accelerometer X, Y and Z axis should always read close to zero. However at least one or two axes will detect some force when the thrusters are being fired.
 
-The crew say that they can feel when a reboost is happening so the Sense HAT accelerometer should definitely be able to detect it. Therefore you should be able to work out when ISS reboosts occurred and how long they lasted.
+The crew say that they can feel when a reboost is happening so the Sense HAT [accelerometer](https://www.raspberrypi.org/learning/astro-pi-guide/sensors/movement.md) should definitely be able to detect it. Therefore you should be able to work out when ISS reboosts occurred and how long they lasted.
 
 ### South Atlantic Anomaly
 
