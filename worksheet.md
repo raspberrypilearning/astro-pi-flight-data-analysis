@@ -83,13 +83,15 @@ If you need help loading the file we suggest to search the Internet for help spe
 
 - Long answer
 
-  There are many ways you can go about it. The easiest way is to choose one or two sensors and use the *chart* function of your spreadsheet software to plot their columns on a line graph against the time stamp. Then just visually inspect the lines for sudden, drastic or gradual changes. Try to think about what would be causing them.
+  There is no single correct way, there are many ways you can go about it. The easiest way though is to choose one or two sensors and use the *chart* function of your spreadsheet software to plot their columns on a line graph against the time stamp. Then just visually inspect the lines for sudden, drastic or gradual changes. Try to think about what would be causing them.
   
   If you need help here just go onto [YouTube](https://www.youtube.com/) and search for *how to plot a line graph in excel* for example.
   
   You could also look into using analytical software packages like [Mathematica](https://www.wolfram.com/mathematica/) or [MATLAB](http://uk.mathworks.com/), both of which are free on the Raspberry Pi. It may be possible to produce some really interesting visualisations of the data using these.
   
   The time stamp column could also be used to [look up](http://www.isstracker.com/historical) the location of the ISS to add a geographical dimension to your analysis. There will be enough data to give you good global coverage and you may be able to show that some sensor readings are affected by the location of the station.
+  
+  You could even write code to automatically search for interesting or anomalous readings to speed up the process.
 
 ## What to look for
 
@@ -113,30 +115,29 @@ Time is on the horizontal axis with temperature on the vertical.
 
 CHX stands for Cabin Heat Exchanger. The CHX *core* is a consumable item that needs to be replaced once every six weeks or so. Because the core has water flowing through it constantly regular dry-outs are required to prevent microbial or fungal growth that could damage the CHX or pose a health risk to the crew. So a *CHX dry-out* is the name of the maintenance activity where they change from one CHX core to the next.
 
-During this maintenance the water flowing through the CHX core is diverted to a backup unit to allow the core to dry out and be replaced. This causes a drop in cabin temperature, that reduces how much moisture can be suspended in the air, which in turn increases *relative humidity*. The plot below shows the dry-out starting at about 07:45.
+During this maintenance the water flowing through the CHX core is diverted to a backup unit to allow the core to dry out so that it can be replaced. This causes a drop in cabin temperature, that reduces how much moisture can be suspended in the air, which in turn increases *relative humidity*. The temperature plot below shows the dry-out starting at about 07:45.
 
 Time is on the horizontal axis with temperature on the vertical.
 
 ![](images/CHX_dryout_temperature.png)
 
-At the same time a marked increase in relative humidity is recorded. Time is on the horizontal axis with relative humidity on the vertical.
+At the same time a marked increase in relative humidity is recorded due to the air being less able to suspend water vapour. Time is on the horizontal axis with relative humidity on the vertical.
 
 ![](images/CHX_dryout_humidity.png)
 
-
-
-
-
-
-
-
-
-
-
+Note how long it takes for the measurements to get back to normal. These events should be easy to spot in the data if you look at both temperature and humidity together. The plot below also shows [dew point](https://en.wikipedia.org/wiki/Dew_point) which you can calculate (if you want to) using this simple [formula](https://en.wikipedia.org/wiki/Dew_point#Simple_approximation).
 
 ![](images/CHX_dryout_temperature_humidity_dewpoint.png)
 
 ### O2 Re-pressurisation 
+
+An O2 re-pressurisation is also a regular maintenance activity that occurs once every few months. The ISS has an oxygen recycling and carbon dioxide scrubbing system however periodically a bottle of compressed oxygen is delivered to the ISS on a Progress cargo vehicle. This is then connected to the life support system and slowly released to top-up the oxygen in the ecosystem.
+
+When this happens an increase in atmospheric pressure is recorded as well as in O2 content of the air. The Sense HAT cannot measure O2 content but it can measure air [pressure](https://www.raspberrypi.org/learning/astro-pi-guide/sensors/pressure.md), so you should be able to identify when these re-pressurisation events occur in the CSV data.
+
+The first graph below shows O2 content in the air, however the second one shows total air pressure. Time is on the horizontal axis with millimeters of mercury on the vertical. Note that the pressure data in the CSV files will be in *millibars* since this is the unit used by the Sense HAT.
+
+**1 atmosphere = 760 millimeters of mercury = 1013.25 millibars**
 
 ![](images/Repress_O2_pressure_total_pressure.png)
 
