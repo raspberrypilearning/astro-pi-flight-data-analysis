@@ -2,13 +2,13 @@
 
 ![](images/columbus.jpg)
 
-The two Astro Pi flight computers on board the ISS are programmed to run the competition [winning programs](http://astro-pi.org/competition/winners/) as part of an automatic sequence.  Each program will have one week of run time. After this sequence has completed the Astro Pis will enter a flight recorder mode where they record sensor readings into a database every 10 seconds.
+The two Astro Pi flight computers on board the ISS are programmed to run the competition [winning programs](http://astro-pi.org/competition/winners/) as part of an automatic sequence.  Each program will have one week of run time. After this sequence has completed the Astro Pis will enter a flight recorder mode where they save sensor readings to a database every 10 seconds.
 
 Because the sensor readings are being taken so frequently you'll be able to analyse them to look for lots of interesting activity on the station and possibly strange anomalies that Tim will want to know about!
 
-We anticipate the Astro Pis will be left in this mode for at least a week, probably more. The product of this will be a large CSV files, created by Tim, which **you can download** and analyse. To help you get started with this we have obtained some example sensor readings from the ISS life support system. These show what certain activities will look like, when ploted on a graph, so that you can look for something similar in the Astro Pi data.
+We anticipate the Astro Pis will be left in this mode for at least a week, probably more. The product of this will be several large CSV files, created by Tim, which **you can download** and analyse. To help you get started with this we have obtained some example sensor readings from the ISS life support system. These show what certain activities will look like, when ploted on a graph, so that you can look for something similar in the Astro Pi data.
 
-## What is a CSV files?
+## What are CSV files?
 
 CSV stands for comma separated values ([more info](https://en.wikipedia.org/wiki/Comma-separated_values)). It's a very old file format used for storing tables of information as plain text. So in some ways it's very similar to an Excel spreadsheet but more basic with less features.
 
@@ -47,9 +47,9 @@ pressure|Air pressure in *Millibars*.|Sense HAT Pressure sensor.
 pitch|An angle between 0 and 360 *degrees* giving the current pitch orientation.|Calculated from combined Sense HAT accel, gyro and mag readings. 
 roll|An angle between 0 and 360 *degrees* giving the current roll orientation.|Calculated from combined Sense HAT accel, gyro and mag readings.
 yaw|An angle between 0 and 360 *degrees* giving the current yaw orientation.|Calculated from combined Sense HAT accel, gyro and mag readings.
-mag_x|The magnetometer X axis in *microteslas* (µT).|Sense HAT magnetometer.
-mag_y|The magnetometer Y axis in *microteslas* (µT).|Sense HAT magnetometer.
-mag_z|The magnetometer Z axis in *microteslas* (µT).|Sense HAT magnetometer.
+mag_x|The magnetic field stength of the X axis in *microteslas* (µT).|Sense HAT magnetometer.
+mag_y|The magnetic field stength of the Y axis in *microteslas* (µT).|Sense HAT magnetometer.
+mag_z|The magnetic field stength of the Z axis in *microteslas* (µT).|Sense HAT magnetometer.
 accel_x|The acceleration intensity of the X axis in *Gs*.|Sense HAT accelerometer.
 accel_y|The acceleration intensity of the Y axis in *Gs*.|Sense HAT accelerometer.
 accel_z|The acceleration intensity of the Z axis in *Gs*.|Sense HAT accelerometer.
