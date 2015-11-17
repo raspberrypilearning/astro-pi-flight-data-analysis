@@ -176,3 +176,7 @@ The Astro Pi will just reboot if it gets a single event upset. The **reset** fie
 We'll be trying to collectively map out what we think was happening throughout the entire time the flight recorder mode was active. So to contribute to this please go to the [Astro Pi forums](https://www.raspberrypi.org/forums/viewforum.php?f=104) and write a new post explaining your findings. This will then be verified by one of the team at Raspberry Pi and other members of the public.
 
 Good luck!
+
+## What next?
+
+How about capturing some flight recording data of your own? This will allow you to recreate what the Astro Pis in space will be doing in your own classroom! When you feel you're ready to give this a try there is an excellent resource on data logging [here](https://www.raspberrypi.org/learning/sense-hat-data-logger/) which you can follow to do this.
