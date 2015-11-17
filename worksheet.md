@@ -39,7 +39,7 @@ Here is a list of the columns you'll have:
 Column name|Meaning|Source
 ---|---|---
 ROW_ID|A unique identifying number for each row. If you're collaborating with other people it may be useful to have a way to specify the exact row number when you find something interesting in the data.|Database auto increment.
-temp_cpu|The temperature of the Raspberry Pi B+ CPU in degrees *Celsius*.|Raspberry Pi GPU mailbox.
+temp_cpu|The temperature of the Raspberry Pi B+ CPU in degrees *Celsius*.|Raspberry Pi GPU mailbox (`/sys/class/thermal/thermal_zone0/temp`).
 temp_h|The temperature in degrees *Celsius*.|Sense HAT Humidity sensor.
 temp_p|The temperature in degrees *Celsius*.|Sense HAT Pressure sensor.
 humidity|The *percent* relative humidity.|Sense HAT Humidity sensor.
@@ -56,7 +56,7 @@ accel_z|The acceleration intensity of the Z axis in *Gs*.|Sense HAT acceleromete
 gyro_x|The rotational intensity of the X axis in *radians per second*.|Sense HAT gyroscope.
 gyro_y|The rotational intensity of the Y axis in *radians per second*.|Sense HAT gyroscope.
 gyro_z|The rotational intensity of the Z axis in *radians per second*.|Sense HAT gyroscope.
-reset|A copy of the Raspberry Pi CPU reset register. This is useful for looking at the frequency and effect of single event upsets. The values is only recorded once per boot.|Raspberry Pi GPU mailbox.
+reset|A copy of the Raspberry Pi CPU reset register. This is useful for looking at the frequency and effect of single event upsets. The values is only recorded once per boot.|Raspberry Pi GPU mailbox (`vcgencmd get_rsts`).
 time_stamp|The time at which the sensors were measured and the row was created.|Astro Pi real time clock.
 
 There is an excillent guide to help you understand the sensors [here](https://www.raspberrypi.org/learning/astro-pi-guide/) if you need to familiarise yourself.
