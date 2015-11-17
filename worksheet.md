@@ -167,7 +167,7 @@ This radiation interferes with electronic equipment and can bit-flip computer me
 
 ![](images/South_Atlantic_Anomaly.jpg)
 
-Using the magnetometer data from the CSV files along with the time stamp (to look up the latitude and longitude of the station) you should be able to reproduce a heat map of the Earth's magnetic field strength like the one above. Then using the **reset** column (the Raspberry Pi reset register) in the CSV data you'll be able to plot where the Astro Pi experienced a reboot and find out if it's being affected by the South Atlantic Anomaly.
+Using the magnetometer X, Y and Z data from the CSV files along with the time stamp (to look up latitude and longitude) you should be able to reproduce a heat map of the Earth's magnetic field strength like the one above. Then using the **reset** column (the Raspberry Pi reset register) you'll be able to plot where the Astro Pi experienced an upset and find out if it's being affected by the South Atlantic Anomaly.
 
 The Astro Pi will just reboot if it gets a single event upset. The **reset** field will only have data in the *first row created after each boot* of the Astro Pi, at all other times it will be `0`. The number `1000` means the Astro Pi has booted up from cold, `20` means it's come back up after a reboot. Other numbers indicate that the Astro Pi has come up in a stange state and may not be working correctly.
 
