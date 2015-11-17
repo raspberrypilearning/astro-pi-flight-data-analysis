@@ -2,9 +2,9 @@
 
 ![](images/columbus.jpg)
 
-The two Astro Pi flight computers on board the ISS are programmed to run the competition [winning programs](http://astro-pi.org/competition/winners/) as part of an automatic sequence.  Each program will have one week of run time. After this sequence has completed the Astro Pis will enter a flight recorder mode where they save sensor readings to a database every 10 seconds.
+The two Astro Pi flight computers on the ISS are programmed to run the competition [winning programs](http://astro-pi.org/competition/winners/) as part of an automatic sequence.  Each program will have one week of run time. After this sequence has completed the Astro Pis will enter a flight recorder mode where they save sensor readings to a database every 10 seconds.
 
-Because the sensor readings are being taken so frequently you'll be able to analyse them to look for lots of interesting activity on the station and possibly strange anomalies that Tim will want to know about!
+Because the sensor readings are being taken so frequently you'll be able to look for lots of interesting activity on the station and possibly strange anomalies that Tim will want to know about!
 
 We anticipate the Astro Pis will be left in this mode for at least a week, probably more. The product of this will be several large CSV files, created by Tim, which **you can download** and analyse. To help you get started with this we have obtained some example sensor readings from the ISS life support system. These show what certain activities will look like, when ploted on a graph, so that you can look for something similar in the Astro Pi data.
 
@@ -121,17 +121,17 @@ Time is on the horizontal axis with temperature on the vertical.
 
 ![](images/CHX_dryout_temperature.png)
 
-At the same time a marked increase in relative humidity is recorded due to the air being less able to suspend water vapour. Time is on the horizontal axis with relative [humidity](https://www.raspberrypi.org/learning/astro-pi-guide/sensors/humidity.md) on the vertical.
+At the same time a marked increase in relative humidity is recorded due to the cooler air being less able to suspend water vapour. Time is on the horizontal axis with relative [humidity](https://www.raspberrypi.org/learning/astro-pi-guide/sensors/humidity.md) on the vertical.
 
 ![](images/CHX_dryout_humidity.png)
 
-Note how long it takes for the measurements to get back to normal. These events should be easy to spot in the data if you look at both temperature and humidity together. The plot below also shows [dew point](https://en.wikipedia.org/wiki/Dew_point) which you can calculate (if you want to) using this simple [formula](https://en.wikipedia.org/wiki/Dew_point#Simple_approximation).
+Note how long it takes for the measurements to get back to normal. These events should be easy to spot in the data if you look at temperature and humidity together. The plot below also shows [dew point](https://en.wikipedia.org/wiki/Dew_point) which you can calculate (if you want to) using this simple [formula](https://en.wikipedia.org/wiki/Dew_point#Simple_approximation).
 
 ![](images/CHX_dryout_temperature_humidity_dewpoint.png)
 
 ### O2 Re-pressurisation 
 
-An O2 re-pressurisation is also a regular maintenance activity that occurs once every few months. The ISS has an oxygen recycling and carbon dioxide scrubbing system however periodically a bottle of compressed oxygen is delivered to the ISS on a [Progress](https://en.wikipedia.org/wiki/Progress_%28spacecraft%29) cargo vehicle. This is then connected to the life support system and slowly released to top-up the oxygen in the ecosystem over the course of an hour or two.
+An O2 re-pressurisation is another regular maintenance activity that occurs once every few months. The ISS has an oxygen recycling and carbon dioxide scrubbing system however periodically a bottle of compressed oxygen is delivered to the ISS on a [Progress](https://en.wikipedia.org/wiki/Progress_%28spacecraft%29) cargo vehicle. This is then connected to the life support system and slowly released to top-up the oxygen in the ecosystem over the course of an hour or two.
 
 When this happens an increase in atmospheric pressure is recorded as well as in O2 content of the air. The Sense HAT cannot measure O2 content but it can measure air [pressure](https://www.raspberrypi.org/learning/astro-pi-guide/sensors/pressure.md), so you should be able to identify when these re-pressurisation events occur in the CSV data.
 
@@ -143,19 +143,19 @@ The first graph below shows O2 content in the air, however the second one shows 
 
 ### ISS Re-boost
 
-The ISS is in low Earth orbit (LEO) and even at the altitude of 400 km there is still a tiny amount of atmosphere present. That air creates drag on the ISS which causes its orbit to slowly decay over time. This means that it's constantly losing 50 to 100 meters of altitude per day and if left unchecked it would eventually re-enter the atmosphere and burn up like a meteorite.
+The ISS is in low Earth orbit (LEO) and even at the altitude of 400 km there is still a tiny amount of atmosphere present. That air creates drag on the ISS which causes its orbit to slowly decay over time. This means that it's losing 50 to 100 meters of altitude per day and if left unchecked it would eventually re-enter the atmosphere and burn up like a meteorite.
 
-To avoid this happening (or rather to keep on delaying it) the ISS is regularly given a re-boost by a docked spacecraft. A reboost is just firing the thrusters to increase the altitude by the desired amount.
+To avoid this happening (or rather to keep on delaying it) the ISS is regularly given a re-boost by a docked spacecraft. A reboost is just firing the thrusters for a while to increase the altitude by the desired amount.
 
 ![](images/reboost_firing.jpg)
 
-The graph below shows time on the horizontal axis and the altitude of the ISS in km on the vertical. You can see that, every now and again, the altitude jumps back up. These are the reboosts and you can see they happen in a somewhat irregular way. On the whole one or two occur per month. Go [here](http://www.heavens-above.com/IssHeight.aspx) for the latest graph.
+The graph below shows time on the horizontal axis and the altitude of the ISS in kilometres on the vertical. You can see that, every now and again, the altitude jumps back up. These are the reboosts and you can see they happen in a somewhat irregular way. On the whole one or two occur per month.
 
 ![](images/ISS_altitude.png)
 
 The Astro Pi cannot measure altitude from inside the ISS so this will not be part of the CSV data. However when an ISS reboost occurs it will be able to detect the force of **acceleration** being applied by the spacecraft thrusters. In microgravity the accelerometer X, Y and Z axis should always read close to zero Gs. However at least one or two axes will detect some force when the thrusters are being fired.
 
-The crew say that they can feel when a reboost is happening so the Sense HAT [accelerometer](https://www.raspberrypi.org/learning/astro-pi-guide/sensors/movement.md) should definitely be able to detect it. Therefore you should be able to work out when ISS reboosts occurred and how long they lasted.
+The crew say that they can feel when a reboost is happening so the Sense HAT [accelerometer](https://www.raspberrypi.org/learning/astro-pi-guide/sensors/movement.md) should definitely be able to detect it. Therefore you should be able to work out when ISS reboosts occurred and how long they lasted. Go [here](http://www.heavens-above.com/IssHeight.aspx) for the latest altitude graph, you may be able to correlate this with the data in the CSV files.
 
 ### South Atlantic Anomaly
 
