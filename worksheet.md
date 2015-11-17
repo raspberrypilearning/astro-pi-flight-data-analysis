@@ -163,7 +163,7 @@ High above the Earth there is a layer of energetic charged particles trapped by 
 
 The [South Atlantic Anomaly](https://en.wikipedia.org/wiki/South_Atlantic_Anomaly) is an area where the Van Allen radiation belt dips down to an altitude of just 200 kilometres above the Earth's surface. Meaning that satellites in low Earth orbit experience higher than usual levels of radiation when passing through it. This includes the International Space Station.
 
-This radiation interferes with electronic equipment and can bit-flip computer memory (change the state of a single binary bit from a `0` to a `1` or from a `1` to a `0`) causing what's known as a [single event upset](https://en.wikipedia.org/wiki/Single_event_upset) crash. The white spots on this map indicate where electronic equipment on the [TOPEX/Poseidon](https://en.wikipedia.org/wiki/TOPEX/Poseidon) satellite was affected in this way. The darker blue area is the South Atlantic Anomaly.
+This radiation interferes with electronic equipment and can bit-flip computer memory (change the state of a single binary bit from a `0` to a `1` or from a `1` to a `0`) causing what's known as a [single event upset](https://en.wikipedia.org/wiki/Single_event_upset) crash. The white spots on this map indicate where electronic equipment on the [TOPEX/Poseidon](https://en.wikipedia.org/wiki/TOPEX/Poseidon) satellite was affected in this way. The darker blue area is the South Atlantic Anomaly. Note the scale is in nanoteslas (nT) whereas the magnetometer values in the CSV data will be in microteslas (µT). 1 µT is equal 1000 nT.
 
 ![](images/South_Atlantic_Anomaly.jpg)
 
@@ -173,3 +173,6 @@ The Astro Pi will just reboot if it gets a single event upset. The **reset** fie
 
 ## What to do when you find something
 
+We'll be trying to collectively map out what we think was happening throughout the entire time the flight recorder mode was active. So to contribute to this please go to the [Astro Pi forums](https://www.raspberrypi.org/forums/viewforum.php?f=104) and write a new post explaining your findings. This will then be verified by one of the team at Raspberry Pi and other members of the public.
+
+Good luck!
