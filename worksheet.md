@@ -103,7 +103,7 @@ Courtesy of the [German Aerospace Center](http://www.dlr.de/) and the [UK Space 
 
 ### Crew activity
 
-Hard work is part of daily life in space for astronauts. Their bodies naturally radiate heat and through perspiration or breathing they release moisture into the air that increases relative humidity. Because of this [humidity](https://www.raspberrypi.org/learning/astro-pi-guide/sensors/humidity.md) and [temperature](https://www.raspberrypi.org/learning/astro-pi-guide/sensors/temperature.md) are two great indicators of crew activity. The graph below shows the crew deploying the Muscle Atrophy Research and Exercise System ([MARES](http://www.esa.int/Our_Activities/Human_Spaceflight/Columbus/Muscle_Atrophy_Research_and_Exercise_System)) in the Columbus module (a big zero-g exercise machine).
+Hard work is part of daily life in space for astronauts. Their bodies naturally radiate heat and through perspiration or breathing they release moisture into the air that increases relative humidity. Because of this [humidity](https://www.raspberrypi.org/learning/astro-pi-guide/sensors/humidity.md) and [temperature](https://www.raspberrypi.org/learning/astro-pi-guide/sensors/temperature.md) are two great indicators of crew activity. The graph below shows the crew deploying the Muscle Atrophy Research and Exercise System ([MARES](http://www.esa.int/Our_Activities/Human_Spaceflight/Columbus/Muscle_Atrophy_Research_and_Exercise_System), a big zero-g exercise machine) in the Columbus module.
 
 Time is on the horizontal axis with relative humidity on the vertical. They start working at 9:00 and you can see that relative humidity starts to increase. They go on their lunch break at about 12:30. Some more work starts around 16:30.
 
