@@ -132,4 +132,4 @@ This time the Y axis does start from zero meaning that you're seeing a much more
 
 Good luck!
 
-[< Back to the worksheet](worksheet.md)
+[< Back to the worksheet](worksheet.md#how-do-i-analyse-the-data)
