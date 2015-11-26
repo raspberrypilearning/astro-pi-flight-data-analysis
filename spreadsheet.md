@@ -12,7 +12,7 @@ Boot up your Raspberry Pi as per usual using your new Raspbian Jessie SD card.
 
 ## Download the CSV zip file
 
-Currently only the example data is available. This data was *not* recorded in space, it was captured at an office desk in in Cambridge. So please do not spend too much effort analysing it, it's only been provided so that you can examine the file layout and check that you can load it properly. The file you'll get from the ISS will use the same format and layout.
+Currently only the example data is available. This data was *not* recorded in space, it was captured at an office desk in Cambridge. So please do not spend too much effort analysing it, it's only been provided so that you can examine the file layout and check that you can load it properly. The file you'll get from the ISS will use the same format and layout.
 
 [Example CSV Download](https://github.com/raspberrypilearning/astro-pi-flight-data-analysis/blob/master/data/astro_pi_data_20150824_085954.zip?raw=true)
 
