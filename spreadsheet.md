@@ -70,7 +70,7 @@ Working with only 500 rows will be a lot quicker and more responsive allowing yo
 
 ## Format the time stamp column
 
-Currently the time stamp column is a *text* field. If you want to use in any calculations (for instance working out the time between two rows) then you'll need to format the entire column as *time* field. So let's do this now before we go any further.
+Currently the time stamp column is a *text* field. If you want to use this in any calculations (for instance working out the time between two rows) then you'll need to format the entire column as *time* field. So let's do this now before we go any further.
 
 Scroll to the right and find column `T` which should be `time_stamp`, right click on the column header and select `Format Cells` from the context menu.
 
@@ -131,3 +131,5 @@ Let's say you now wanted to look for CHX dry-outs and want both temperature and 
 This time the Y axis does start from zero meaning that you're seeing a much more accurate depiction of the measurements. Once you feel confident you can go back to the original CSV data and try to load more than 500 rows into a chat. Be wary of doing this for all rows as it will be very slow!
 
 Good luck!
+
+[< Back to the worksheet](worksheet.md)
