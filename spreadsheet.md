@@ -84,7 +84,9 @@ Check that the format code is the same as in the picture above, then click OK.
 
 ## Plot humidity
 
-To gain some familiarity with making charts we're going to do a chart of humidity versus time but feel free to use a different sensor if you prefer. Time will be on the horizontal X axis and the humidity measurement will be on the vertical Y axis. Scroll back to the left and find column `E` which should be `humidity`, left click on the column header (where the red star is below) to select all rows in the column.
+To gain some familiarity with making charts we're going to do humidity versus time, let's say we are looking for crew activity near the Astro Pis. Feel free to use a different sensor if you prefer. Time will be on the horizontal X axis and the humidity measurement will be on the vertical Y axis. Scroll back to the left and find column `E` which should be `humidity`, left click on the column header (where the red star is below) to select all rows in the column.
+
+Then click the `Chart` button in the toolbar.
 
 ![](images/ex13.png)
 
@@ -119,3 +121,13 @@ If you're not happy with how a chart has come out you might want to delete it an
 ![](images/exDel.png)
 
 If you see the error message above it's because you still have the column selected in addition to the chart. To handle this just click on any cell in the spreadsheet and then reselect the chart before trying to delete it again.
+
+## Add more data
+
+Let's say you now wanted to look for CHX dry-outs and want both temperature and humidity on the same chart. The process is essentially the same as before however instead of only selecting one column at the start, you hold down the `Ctrl` key and select as many as you like before clicking the `Chart` button.
+
+![](images/ex18.png)
+
+This time the Y axis does start from zero meaning that you're seeing a much more accurate depiction of the measurements. Once you feel confident you can go back to the original CSV data and try to load more than 500 rows into a chat. Be wary of doing this for all rows as it will be very slow!
+
+Good luck!
