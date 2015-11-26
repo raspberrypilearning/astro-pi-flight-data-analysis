@@ -84,7 +84,7 @@ Check that the format code is the same as in the picture above, then click OK.
 
 ## Plot humidity
 
-We're going to make a graph of humidity versus time but feel free to use a different sensor if you prefer, the process is the same for all. Time will be on the horizontal X axis and the humidity measurement will be on the vertical Y axis. Scroll back to the left and find column `E` which should be `humidity`, left click on the column header (where the red star is below) to select all rows in the column.
+To gain some familiarity with making charts we're going to do a chart of humidity versus time but feel free to use a different sensor if you prefer. Time will be on the horizontal X axis and the humidity measurement will be on the vertical Y axis. Scroll back to the left and find column `E` which should be `humidity`, left click on the column header (where the red star is below) to select all rows in the column.
 
 ![](images/ex13.png)
 
@@ -98,14 +98,24 @@ We saw from before that the time stamp data is in column `T` so enter the follow
 
 ![](images/ex15.png)
 
-Step 4 (Chart Elements) just allows you to specify titles for the axes and for the graph itself, you can skip this if you want to.
+Step 4 (Chart Elements) just allows you to specify titles for the axes and for the chart itself, you can skip this if you want to.
 
 ![](images/ex16.png)
 
 When you're ready click Finish.
 
-## Examine the graph
+## Examine the chart
 
-You can expand the graph by clicking and dragging the resize zones on the edges and corners.
+You can expand the chart by clicking and dragging the resize zones on the edges and corners.
 
 ![](images/ex17.png)
+
+Notice that the Y axis doesn't start at zero, so even though it looks like the relative humidity is changing a lot here it's only varying by around 3%. Which isn't that much. This is what you might expect at an office desk over the course of an hour or so though.
+
+## Deleting charts
+
+If you're not happy with how a chart has come out you might want to delete it and try again. To delete a chart you simply select it and press the `Delete` key on your keyboard.
+
+![](images/exDel.png)
+
+If you see the error message above it's because you still have the column selected in addition to the chart. To handle this just click on any cell in the spreadsheet and then reselect the chart before trying to delete it again.
