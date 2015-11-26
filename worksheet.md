@@ -85,11 +85,9 @@ If you need help loading the file we suggest to search the Internet for help spe
 
 - Long answer
 
-  There is no single correct way, there are many ways you can go about it. The easiest way though is to choose one or two sensors and use the *chart* function of your spreadsheet software to plot their columns on a line graph against the time stamp. Then just visually inspect the lines for sudden, drastic or gradual changes. Try to think about what would be causing them.
+  There is no single correct way, there are many ways you can go about it. The easiest way though is to choose one or two sensors and use the *chart* function of your spreadsheet software to plot their columns on a line graph against the time stamp (here is an [example](spreadsheet.md) using Libre Office Calc on the Raspberry Pi). Then just visually inspect the lines for sudden, drastic or gradual changes. Try to think about what would be causing them.
   
   If you need help here just go onto [YouTube](https://www.youtube.com/) and search for *how to plot a line graph in excel* for example.
-  
-  Here is a [worked example](spreadsheet.md) using Libre Office Calc on the Raspberry Pi.
   
   You could also look into using analytical software packages like [Mathematica](https://www.wolfram.com/mathematica/) or [MATLAB](http://uk.mathworks.com/), both of which are free on the Raspberry Pi. It may be possible to produce some really interesting visualisations of the data using these.
   
