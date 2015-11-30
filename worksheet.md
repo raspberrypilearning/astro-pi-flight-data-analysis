@@ -73,7 +73,7 @@ Then after another week, or possibly longer, Tim will download the CSV files and
 
 To test you can load this kind of file try downloading this example, it's inside a zip file which you will need to extract first.
 
-[Download](data/astro_pi_data_20150824_085954.zip?raw=true)
+[Download](https://github.com/raspberrypilearning/astro-pi-flight-data-analysis/blob/master/data/astro_pi_data_20150824_085954.zip?raw=true)
 
 If you need help loading the file we suggest to search the Internet for help specifically related to the spreadsheet software you're using.
 
