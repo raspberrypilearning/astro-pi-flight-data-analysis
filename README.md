@@ -9,6 +9,7 @@ We anticipate the Astro Pis will be left in this mode for at least a week, proba
 ## Worksheet
 
 - [Worksheet](worksheet.md)
+- [Worked example](spreadsheet.md)
 
 ## Licence
 
