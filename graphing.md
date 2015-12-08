@@ -174,3 +174,4 @@ Graphs should always be titles and have labelled axis. Again, this is trivial wi
 	pyplot.ylabel('Temperature/$^\circ$C')
 	```
 
+[< Back to the worksheet](worksheet.md#how-do-i-analyse-the-data)
