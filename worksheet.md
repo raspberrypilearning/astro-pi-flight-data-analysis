@@ -63,19 +63,18 @@ time_stamp|The time at which the sensors were measured and the row was created.|
 
 There is an excellent guide to help you understand the sensors [here](https://www.raspberrypi.org/learning/astro-pi-guide/) if you need to familiarise yourself.
 
-## When can I get the CSV files?
+## Where can I get the CSV files?
 
-Several things need to happen before the files will be available. Tim needs to get to the ISS and deploy the Astro Pi computers: his launch date is December 15th 2015. Once deployed, the Pis need to complete the processing of the programs that won the Astro Pi competition; each one has a week of run time allocated. Only then will the Astro Pis enter flight recording mode where this data will be captured.
+Right here! There are two CSV files on offer and each was collected by a different Astro Pi flight unit in a different location of the ISS.
 
-Then after another week, or possibly longer, Tim will download the CSV files and we will make them available on the Astro Pi website. Keep checking back for [updates](http://astro-pi.org/updates/). So, currently, it's not possible for us to provide an exact date since Tim's on-orbit schedule is not known to us. We anticipate it will be in February or March 2016.
-
-## Example CSV file
-
-To test you can load this kind of file try downloading this example; it's inside a zip file which you will need to extract first.
-
-[Download Example File](https://github.com/raspberrypilearning/astro-pi-flight-data-analysis/blob/master/data/astro_pi_data_20150824_085954.zip?raw=true)
+Unit|Location on ISS|Download
+---|---|---
+Astro Pi Vis (Ed)|Columbus|[Download](https://github.com/raspberrypilearning/astro-pi-flight-data-analysis/raw/master/data/Columbus_Ed_astro_pi_datalog.csv.zip)
+Astro Pi Ir (Izzy)|Node 2|[Download](https://github.com/raspberrypilearning/astro-pi-flight-data-analysis/raw/master/data/Node2_Izzy_astro_pi_datalog.csv.zip)
 
 If you need help loading the file, we suggest searching the internet for help specifically related to the spreadsheet software you're using.
+
+There is also an example CSV file recorded using an Astro Pi on the ground. This was just left on an office desk to collect the data but could be useful for comparison. You can download it [here](https://github.com/raspberrypilearning/astro-pi-flight-data-analysis/raw/master/data/astro_pi_data_20150824_085954.zip).
 
 ## How do I analyse the data?
 
