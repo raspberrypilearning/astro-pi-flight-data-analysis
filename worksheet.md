@@ -172,6 +172,8 @@ Using the magnetometer X, Y and Z data from the CSV files, along with the timest
 
 The Astro Pi will just reboot if it gets a single event upset. The **reset** field will only have data in the *first row created after each boot* of the Astro Pi, and at all other times it will be `0`. The number `1000` means the Astro Pi has booted up from cold, whereas `20` means it's come back up after a reboot. Other numbers indicate that the Astro Pi has come up in a strange state and may not be working correctly.
 
+*Note: It appears that the Astro Pis did not suffer any single event upsets during the flight. We think the thick aluminium case must have provided a high degree of radiation sheilding. So it won't be possible for you to use the reset field for this. It should still be possible to make the heat map using the magnetometer data though.*
+
 ## What to do when you find something
 
 We'll be trying to collectively map out what we think was happening throughout the entire time the flight recorder mode was active. To contribute to this, please go to the [Astro Pi forums](https://www.raspberrypi.org/forums/viewforum.php?f=104) and write a new post explaining your findings. This will then be verified by one of the team at Raspberry Pi and other members of the public.
