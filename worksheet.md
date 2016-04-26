@@ -8,7 +8,7 @@ The two Astro Pis on the ISS were programmed to run the [competition-winning pro
 
 Because the sensor readings were taken so often there's masses of data to search through, so we need **your** help to look through the data and find out what was going on. There could be strange, unexplained things, or just the normal day-to-day activities of the astronauts.
 
-The Astro Pis were left in flight recorder mode for a week. The product of this was several large CSV files, created by Tim, which **you can download** and analyse. To help you get started with this we have obtained some example sensor readings from the ISS life support system. These show what certain activities look like when plotted on a graph, so that you can look for something similar in the Astro Pi data.
+The Astro Pis were left in flight recorder mode for several weeks. The product of this is three large CSV files, created by Tim, which **you can download** and analyse. To help you get started with this we have obtained some example sensor readings from the ISS life support system. These show what certain activities look like when plotted on a graph, so that you can look for something similar in the Astro Pi data.
 
 ## What are CSV files?
 
