@@ -65,12 +65,13 @@ There is an excellent guide to help you understand the sensors [here](https://ww
 
 ## Where can I get the CSV files?
 
-Right here! There are two CSV files on offer; each was collected by a different Astro Pi flight unit in a different location of the ISS.
+Right here! There are three CSV files on offer; the first two were collected in the Columbus module and the third one is from the Node 2/Unity module. Look [here](http://www.esa.int/Our_Activities/Human_Spaceflight/International_Space_Station/Building_the_International_Space_Station3) if you need a map of the ISS modules.
 
-Unit|Location on ISS|Download
----|---|---
-Astro Pi Vis (Ed)|Columbus|[Download](https://github.com/raspberrypilearning/astro-pi-flight-data-analysis/raw/master/data/Columbus_Ed_astro_pi_datalog.csv.zip)
-Astro Pi IR (Izzy)|Node 2|[Download](https://github.com/raspberrypilearning/astro-pi-flight-data-analysis/raw/master/data/Node2_Izzy_astro_pi_datalog.csv.zip)
+Unit|Location on ISS|Length|Download
+---|---|---|---
+Astro Pi Vis (Ed)|Columbus|2 weeks|[Download](https://github.com/raspberrypilearning/astro-pi-flight-data-analysis/raw/master/data/Columbus_Ed_astro_pi_datalog.csv.zip)
+Astro Pi Vis (Ed)|Columbus|4 weeks|[Download](https://github.com/raspberrypilearning/astro-pi-flight-data-analysis/raw/master/data/Columbus2_Ed_astro_pi_datalog.csv.zip)
+Astro Pi IR (Izzy)|Node 2|2 weeks|[Download](https://github.com/raspberrypilearning/astro-pi-flight-data-analysis/raw/master/data/Node2_Izzy_astro_pi_datalog.csv.zip)
 
 If you need help loading the file, we suggest searching the internet for help specifically related to the spreadsheet software you're using.
 
