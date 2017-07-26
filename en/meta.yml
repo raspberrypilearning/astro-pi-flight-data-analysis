@@ -1,0 +1,26 @@
+---
+title: Astro Pi Flight Data Analysis
+hero_image: images/banner.png
+description: Do strange, unexplained things happen on the International Space Station?
+original_url: https://raspberrypi.org/learning/astro-pi-flight-data-analysis
+theme: red
+duration: 2
+listed: false
+ingredient: false
+copyedit: true
+curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
+interests: ''
+technologies: rpi, physical computing, python
+site_areas: ''
+steps:
+- title: Introduction
+- title: What you will need
+- title: Astro Pi Flight Data Analysis
+- title: What are CSV files?
+- title: What's in the CSV files?
+- title: Where can I get the CSV files?
+- title: How do I analyse the data?
+- title: What to look for
+- title: What to do when you find something
+- title: What next?
+
