@@ -3,7 +3,7 @@ title: Astro Pi Flight Data Analysis
 hero_image: images/banner.png
 description: Do strange, unexplained things happen on the International Space Station?
 original_url: https://raspberrypi.org/learning/astro-pi-flight-data-analysis
-theme: red
+theme: violet
 duration: 2
 listed: true
 ingredient: false
