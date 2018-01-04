@@ -37,5 +37,5 @@ gyro_z|The rotational intensity of the Z axis in *radians per second*.|Sense HAT
 reset|A copy of the Raspberry Pi CPU reset register. This is useful for looking at the frequency and effect of single event upsets. The values are only recorded once per boot.|Raspberry Pi GPU mailbox (`vcgencmd get_rsts`).
 time_stamp|The time at which the sensors were measured and the row was created.|Astro Pi real-time clock.
 
-There is an excellent guide to help you understand the sensors [here](https://projects.raspberrypi.org/en/projects/astro-pi-guide/) if you need to familiarise yourself.
+There is an excellent guide to help you understand the sensors [here](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat) if you need to familiarise yourself.
 
