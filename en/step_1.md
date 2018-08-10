@@ -1,5 +1,7 @@
 ## What you will make
-Do strange, unexplained things happen on the International Space Station? With this resource you can help us find out. The Astro Pis will be watching...
+Do strange, unexplained things happen on the International Space Station? With this resource you can help us find out. 
+
+The Astro Pis will be watching...
 
 The two Astro Pi flight computers on board the ISS are programmed to run the competition-winning programs as part of an automatic sequence. Each program will have one week of run time. After this sequence has completed, the Astro Pis will enter a flight recorder mode where they record sensor readings into a database every 10 seconds.
 
