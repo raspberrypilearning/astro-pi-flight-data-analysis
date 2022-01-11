@@ -16,14 +16,16 @@ hardware: ''
 software: python
 version: 3
 last_tested: 2017-01-01
-steps: 
+steps:
 - title: Introduction
 - title: What you will need
+  completion: engaged
 - title: Astro Pi Flight Data Analysis
 - title: What are CSV files?
 - title: What's in the CSV files?
 - title: Where can I get the CSV files?
 - title: How do I analyse the data?
 - title: What to look for
+  completion: internal
 - title: What to do when you find something
 - title: What next?
