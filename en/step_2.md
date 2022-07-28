@@ -1,4 +1,4 @@
-## Astro Pi Flight Data Analysis
+## CSV files
 
 ![](images/columbus.jpg)
 
