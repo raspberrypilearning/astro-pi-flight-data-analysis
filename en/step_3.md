@@ -1,12 +1,18 @@
-## Astro Pi Flight Data Analysis
+## How do I analyse the data?
 
-![](images/columbus.jpg)
+- Short answer: any way you like!
 
-Do strange, unexplained things happen on the International Space Station? With this resource you can help us find out. The Astro Pis (above) are watching...
+- Long answer:
 
-The two Astro Pis on the ISS were programmed to run the [competition-winning programs](http://astro-pi.org/competition/winners/) as part of an automatic sequence. Each winning program ran for a week. After this sequence completed, the Astro Pis entered a flight recorder mode where they saved sensor readings to a database every 10 seconds. If anything strange happened, it was recorded!
+There is no single correct way; there are many ways you can go about it. The easiest way, though, is to choose one or two sensors and use the *chart* function of your spreadsheet software to plot their columns on a line graph against the timestamp: here's an [example](https://github.com/raspberrypilearning/astro-pi-flight-data-analysis/blob/master/spreadsheet.md) using LibreOffice Calc on the Raspberry Pi. Then you can visually inspect the lines for sudden, drastic or gradual changes. Try to think about what would be causing them.
+  
+If you need help here, just go onto [YouTube](https://www.youtube.com/) and search for *how to plot a line graph in Excel*, for example.
 
-Because the sensor readings were taken so often there's masses of data to search through, so we need **your** help to look through the data and find out what was going on. There could be strange, unexplained things, or just the normal day-to-day activities of the astronauts.
-
-The Astro Pis were left in flight recorder mode for several weeks. This resulted in three large CSV files, created by Tim, which **you can download** and analyse. To help you get started with this we have obtained some example sensor readings from the ISS life support system. These show what certain activities look like when plotted on a graph, so that you can look for something similar in the Astro Pi data.
+Python also has a 2D plotting library called [matplotlib](http://matplotlib.org/), which can be used to make great-looking graphs. Have a look at the guide [here](https://github.com/raspberrypilearning/astro-pi-flight-data-analysis/blob/master/graphing.md) to find out how.
+  
+You could also look into using analytical software packages like [Mathematica](https://www.wolfram.com/mathematica/) or [MATLAB](http://uk.mathworks.com/), both of which are free on the Raspberry Pi. It may be possible to produce some really interesting visualisations of the data using these.
+  
+The timestamp column could also be used to [look up](http://www.isstracker.com/historical) the location of the ISS, to add a geographical dimension to your analysis. There will be enough data to give you good global coverage, and you may be able to show that some sensor readings are affected by the location of the station.
+  
+You could even write code to automatically search for interesting or anomalous readings, to speed up the process.
 

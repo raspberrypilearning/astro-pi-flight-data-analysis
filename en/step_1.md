@@ -1,19 +1,23 @@
-## What you will make
-Do strange, unexplained things happen on the International Space Station? With this resource you can help us find out. The Astro Pis will be watching...
+## Introduction
 
-The two Astro Pi flight computers on board the ISS are programmed to run the competition-winning programs as part of an automatic sequence. Each program will have one week of run time. After this sequence has completed, the Astro Pis will enter a flight recorder mode where they record sensor readings into a database every 10 seconds.
+In this project you will analyse real data, captured by either of the two Astro Pi Flight Units onboard the International Space Station, to learn about Life in Space and Life.
 
-We anticipate the Astro Pis will be left in this mode for at least a week, probably more. The product of this will be a large [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) file which you can download and analyse. This resource will show you how to do this.
+You will:
+- Load [Comma Separated Values (CSV)](https://en.wikipedia.org/wiki/Comma-separated_values) into a spreadsheet application.
+- Display the loaded data in a graphical format.
+- Look for anomalies in the data, and try to form rational conclusions about those data points.
 
-## What you will learn
-By following this resource you will learn:
+![](Graph to be added here)
 
-- What sort of data Tim Peake will make available for you to analyse
-- When this data will become available for download
-- How to analyse the data
-- What interesting anomalies to look for in the data
+### You will need
 
-This resource covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](https://www.raspberrypi.org/curriculum/):
+As a minimum, you will need spreadsheet software. A list of some of the most common is below:
 
-- [Engage and share with the digital making community](https://www.raspberrypi.org/curriculum/community-and-sharing/creator)
+- [Microsoft Excel](https://www.microsoft.com/en-us/microsoft-365/excel) (Windows and macOS)
+- [LibreOffice Calc](https://www.libreoffice.org/) (Windows, macOS and Linux)
+- [Numbers](https://www.apple.com/uk/numbers/) (macOS)
+- [Google Sheets](sheets.google.com) (Web based)
+
+Follow the instructions for your operating system to install the software.
+
 
