@@ -42,7 +42,7 @@ Download this [CSV file](https://github.com/raspberrypilearning/astro-pi-flight-
 
 Use your spreadsheet application to **Open** or **Import** the downloaded file. You should see something like this:
 
-![screenshot of the first few rows of the downloaded CSV file, opened in Google Sheets](images/table-scrrenshot.png)
+![screenshot of the first few rows of the downloaded CSV file, opened in Google Sheets](images/table-screenshot.png)
 
 --- /task ---
 

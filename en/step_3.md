@@ -1,5 +1,11 @@
 ## How do I analyse the data?
 
+The easiest way to analyse the data is to draw some graphs, and then look for patterns or anomolies that you might find.
+
+
+![orbital-graph](images/orbital-graph.png)
+
+
 - Short answer: any way you like!
 
 - Long answer:
