@@ -20,7 +20,7 @@ Date/Time,Latitude,Longitude,Temperature,Humidity,Pressure,Compass,MagX,MagY,Mag
 Here's the same data but in a table, making it a little easier to read.
 ```
 |Date/Time|Latitude|Longitude|Temperature|Humidity|Pressure|Compass|MagX|MagY|MagZ|Pitch|Roll|Yaw|AccelX|AccelY|AccelZ|R|G|B|C|Motion|
-
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |2022-01-31 12:21:15|6.833|152.032|32.7|57.5|1013.6|117|-5.4|-10.6|-4.4|0|360|117|0|0|0|29|27|24|84|1|
 ```
 
