@@ -42,7 +42,11 @@ Experiment with looking at the data, comparing different sets compared each othe
 
 This is a comparison of the **latitude** and **compass** readings. Although there is a very expected cyclical cycle between latitude and magnetic north readings as the the ISS get's closer and further away from the North Pole, there are two distinct anomalies in the data. These could be due to a technical error, or might be more interesting and worthy of investigation.
 
-![latitude and compass readings plotted against time, with a clear cyclcical pattern, but two large spikes that might be worth investigation](images/lat-compass.png)
+![latitude and compass readings plotted against time, with a clear cyclical pattern, but two large spikes that might be worth investigation](images/lat-compass.png)
+
+This is a graph using the colour sensor that correlates with when the crew dimmed the lights.
+
+![graph showing colour sensor light reading dropping when the ISS crew reduced lighting](images/colour-sensor-graph.png)
 
 --- /task ---
 
