@@ -2,6 +2,24 @@
 
 The easiest way to analyse the data is to draw some graphs, and then look for patterns or anomolies that you might find.
 
+You can select columns of data in a spreadsheet and then use that data to draw a graph.
+
+--- task ---
+
+Select the columns of data that you want to graph.
+
+![Date/Time, Latitude and Longitude columns selected in Google sheets](images/select-rows.png)
+
+--- /task ---
+
+--- task ---
+
+content
+
+--- /task ---
+
+
+
 
 ![orbital-graph](images/orbital-graph.png)
 
