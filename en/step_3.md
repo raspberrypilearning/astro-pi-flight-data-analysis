@@ -30,11 +30,9 @@ Use the **Chart editor** to change the **X-axis** and **Series** of the chart. I
 
 This is the result from the data used so far.
 
-![graph showing longitude and latitude cyclically changing over time for the ISS](images/lon-lat-chart.png)
+![orbital-graph](images/orbital-graph.png)
 
 You can clearly see cyclical orbit of the ISS in this graph and by fine tuning the time axis, use it to calculate that the ISS orbits the planet about once every 90 minutes.
-
-![orbital-graph](images/orbital-graph.png)
 
 --- task ---
 
@@ -42,7 +40,7 @@ Experiment with looking at the data, comparing different sets compared each othe
 
 This is a comparison of the **latitude** and **compass** readings. Although there is a very expected cyclical cycle between latitude and magnetic north readings as the the ISS get's closer and further away from the North Pole, there are two distinct anomalies in the data. These could be due to a technical error, or might be more interesting and worthy of investigation.
 
-![latitude and compass readings plotted against time, with a clear cyclical pattern, but two large spikes that might be worth investigation](images/lat-compass.png)
+![latitude and compass readings plotted against time, with a clear cyclical pattern, but two large spikes that might be worth investigation](images/compass-lat.png)
 
 This is a graph using the colour sensor that correlates with when the crew dimmed the lights.
 
