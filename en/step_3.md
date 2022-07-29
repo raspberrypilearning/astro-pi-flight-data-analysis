@@ -14,14 +14,37 @@ Select the columns of data that you want to graph.
 
 --- task ---
 
-content
+From the **Insert** menu select **Chart**
+
+![Insert menu opened with chart highlighted in Google Sheets](images/create-chart.png)
 
 --- /task ---
 
+--- task ---
 
+Use the **Chart editor** to change the **X-axis** and **Series** of the chart. In this case the X-axis has been changed to **Date/Time** and the **Latitude** and **Longitude** are being plotted along the **Y-axis**.
 
+![Chart editor in Google Sheets](images/chart-editor.png)
+
+--- /task ---
+
+This is the result from the data used so far.
+
+![graph showing longitude and latitude cyclically changing over time for the ISS](images/lon-lat-chart.png)
+
+You can clearly see cyclical orbit of the ISS in this graph and by fine tuning the time axis, use it to calculate that the ISS orbits the planet about once every 90 minutes.
 
 ![orbital-graph](images/orbital-graph.png)
+
+--- task ---
+
+Experiment with looking at the data, comparing different sets compared against each other or over time.
+
+This is a comparison of the **latitude** and **compass** readings. Although there is a very expected cyclical cycle between latitude and magnetic north readings as the the ISS get's closer and further away from the North Pole, there are two distinct anomalies in the data. These could be due to a technical error, or might be more interesting and worth of investigation.
+
+
+
+--- /task ---
 
 
 - Short answer: any way you like!
