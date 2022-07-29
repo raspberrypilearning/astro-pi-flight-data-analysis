@@ -38,7 +38,7 @@ You can clearly see cyclical orbit of the ISS in this graph and by fine tuning t
 
 Experiment with looking at the data, comparing different sets compared each other or over time.
 
-This is a comparison of the **latitude** and **compass** readings. Although there is a very expected cyclical cycle between latitude and magnetic north readings as the the ISS get's closer and further away from the North Pole, there are two distinct anomalies in the data. These could be due to a technical error, or might be more interesting and worthy of investigation.
+This is a comparison of the **latitude** and **compass** readings. Although there is a very expected cyclical cycle between latitude and magnetic north readings as the the ISS gets closer and further away from the North Pole, there are two distinct anomalies in the data. These could be due to a technical error, or might be more interesting and worthy of investigation.
 
 ![latitude and compass readings plotted against time, with a clear cyclical pattern, but two large spikes that might be worth investigation](images/compass-lat.png)
 
@@ -48,7 +48,7 @@ This is a graph using the colour sensor that correlates with when the crew dimme
 
 --- /task ---
 
-Python also has a graph plotting library called [matplotlib](http://matplotlib.org/), which can be used to make great-looking graphs. Have a look at the guide [here](https://github.com/raspberrypilearning/astro-pi-flight-data-analysis/blob/master/graphing.md) to find out how.
+Python also has a graph plotting library called [matplotlib](http://matplotlib.org/), which can be used to make great-looking graphs. Have a look at the guide [here](https://github.com/raspberrypilearning/astro-pi-flight-data-analysis/blob/master/graphing.md) to get started.
 
-![graph showing orbital height of the ISS relating to the position of the ISS due to gravitational gradient](images/ISS_altitude.png)
+![graph showing orbital height of the ISS relating to the position of the ISS due to gravitational gradient](images/iss-elevation.pngpng)
 
