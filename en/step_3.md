@@ -50,5 +50,5 @@ This is a graph using the colour sensor that correlates with when the crew dimme
 
 Python also has a graph plotting library called [matplotlib](http://matplotlib.org/), which can be used to make great-looking graphs. Have a look at the guide [here](https://github.com/raspberrypilearning/astro-pi-flight-data-analysis/blob/master/graphing.md) to get started.
 
-![graph showing orbital height of the ISS relating to the position of the ISS due to gravitational gradient](images/iss-elevation.pngpng)
+![graph showing orbital height of the ISS relating to the position of the ISS due to gravitational gradient](images/iss-elevation.png)
 
