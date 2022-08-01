@@ -1,6 +1,6 @@
 ## What to look for
 
-Thanks to the [German Aerospace Center](http://www.dlr.de/) and the [UK Space Agency](https://www.gov.uk/government/organisations/uk-space-agency), we have obtained some example sensor readings from the ISS life support system. These show what certain human activities will look like when plotted on a graph, so that you can look for something similar in the Astro Pi data.
+Thanks to the [German Aerospace Center](http://www.dlr.de/) and the [UK Space Agency](https://www.gov.uk/government/organisations/uk-space-agency), there are example sensor readings from the ISS life support system. These show what certain human activities will look like when plotted on a graph, so that you can look for something similar in the Astro Pi data.
 
 ### Crew activity
 
@@ -18,7 +18,7 @@ Time is on the horizontal axis, with temperature on the vertical.
 
 ### CHX dry-outs
 
-CHX stands for Cabin Heat Exchanger, which is a machine that's responsible for keeping the internal temperature of the ISS comfortable for the crew to live and work in. The CHX *core* is a consumable item that needs to be replaced once every six weeks or so. Because the core has water flowing through it constantly, regular dry-outs are required to prevent microbial or fungal growth that could damage the machine or pose a health risk to the crew. So a *CHX dry-out* is the name of the maintenance activity where they change from one CHX core to the next.
+CHX stands for Cabin Heat Exchanger, which is a machine that is responsible for keeping the internal temperature of the ISS comfortable for the crew. The CHX *core* is a consumable item that needs to be replaced once every six weeks or so. Because the core has water flowing through it constantly, regular dry-outs are required to prevent microbial growth that could damage the machine or pose a health risk to the crew. So a *CHX dry-out* is the name of the maintenance activity where they change from one CHX core to the next.
 
 During this maintenance, the water flowing through the CHX core is diverted to a backup unit, to allow the core to dry out so that it can be replaced. This causes a drop in cabin [temperature](https://github.com/raspberrypilearning/astro-pi-guide/blob/master/sensors/temperature.md), which reduces how much moisture can be suspended in the air, which in turn increases relative [humidity](https://github.com/raspberrypilearning/astro-pi-guide/blob/master/sensors/humidity.md). The temperature plot below shows the dry-out starting at about 07:45.
 
