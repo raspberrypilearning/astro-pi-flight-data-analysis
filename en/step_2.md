@@ -24,11 +24,9 @@ Date/Time,Latitude,Longitude,Temperature,Humidity,Pressure,Compass,MagX,MagY,Mag
 
 Here's the same data but in a table, making it a little easier to read.
 
-```
-|Date/Time|Latitude|Longitude|Temperature|Humidity|Pressure|Compass|MagX|MagY|MagZ|Pitch|Roll|Yaw|AccelX|AccelY|AccelZ|R|G|B|C|Motion|
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|2022-01-31 12:21:15|6.833|152.032|32.7|57.5|1013.6|117|-5.4|-10.6|-4.4|0|360|117|0|0|0|29|27|24|84|1|
-```
+| Date/Time | Latitude | Longitude | Temperature | Humidity | Pressure | Compass | MagX | MagY | MagZ | Pitch | Roll | Yaw | AccelX | AccelY | AccelZ | R | G | B | C | Motion |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 2022-01-31 12:21:15 | 6.833 | 152.032 | 32.7 | 57.5 | 1013.6 | 117 | -5.4 | -10.6 | -4.4 | 0 | 360 | 117 | 0 | 0 | 0 | 29 | 27 | 24 | 84 | 1 |
 
 --- /collapse ---
 
@@ -44,7 +42,7 @@ Download this [CSV file](https://github.com/raspberrypilearning/astro-pi-flight-
 
 Use your spreadsheet application to **Open** or **Import** the downloaded file. You should see something like this:
 
-![screenshot of the first few rows of the downloaded CSV file, opened in Google Sheets](images/table-scrrenshot.png)
+![screenshot of the first few rows of the downloaded CSV file, opened in Google Sheets](images/table-screenshot.png)
 
 --- /task ---
 
