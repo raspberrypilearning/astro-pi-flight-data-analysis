@@ -15,7 +15,7 @@ site_areas: projects
 hardware: ''
 software: python
 version: 3
-last_tested: 2017-01-01
+last_tested: 2022-08-03
 steps:
 - title: Introduction
 - title: CSV files
@@ -25,5 +25,4 @@ steps:
 - title: What to look for
   completion:
   - internal
-- title: What to do when you find something
 - title: What next?
