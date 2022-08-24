@@ -46,6 +46,10 @@ Use your spreadsheet application to **Open** or **Import** the downloaded file. 
 
 --- /task ---
 
+If you wanted to collect motion data for the Astro Pi Flight Unit, then have a look at the collapsed section below.
+
+[[[astro-pi-pir]]]
+
 --- collapse ---
 ---
 
