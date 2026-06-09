@@ -7,7 +7,7 @@ You will:
 - Display the loaded data in a graphical format.
 - Look for anomalies in the data, and try to form rational conclusions about those data points.
 
-![](Graph to be added here)
+![latitude and compass readings plotted against time, with a clear cyclical pattern, but two large spikes that might be worth investigation](images/compass-lat.png)
 
 ### You will need
 
