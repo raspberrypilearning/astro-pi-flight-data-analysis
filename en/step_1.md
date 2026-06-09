@@ -1,6 +1,6 @@
 ## Introduction
 
-In this project you will analyse real data, captured by either of the two Astro Pi Flight Units onboard the International Space Station, to learn about Life in Space and Life.
+In this project you will analyse real data, captured by either of the two Astro Pi Flight Units onboard the International Space Station, to learn about Life in Space.
 
 You will:
 - Load [Comma Separated Values (CSV)](https://en.wikipedia.org/wiki/Comma-separated_values) into a spreadsheet application.
