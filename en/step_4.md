@@ -16,4 +16,4 @@ The Astro Pi cannot measure altitude from inside the ISS, so this is not part of
 
 The crew say that they can feel when a reboost is happening, so the Sense HAT [accelerometer](https://github.com/raspberrypilearning/astro-pi-guide/blob/master/sensors/movement.md) should definitely detect it. Therefore, you should be able to work out when the ISS reboosts occurred and how long they lasted. Go [here](http://www.heavens-above.com/IssHeight.aspx) for the latest altitude graph; you may be able to correlate this with the data in the CSV files.
 
-**If you are entering the Astro Pi challenge, you need to be aware that you only have a three hour time period in which your experiment will run, and the date and time that your experiment will start can not be predicted. This should factor into what data you choose to collect.**
+**If you are entering the [Astro Pi challenge](https://astro-pi.org/mission-space-lab/), you need to be aware that you only have 10 minutes in which your experiment will run, and the date and time that your experiment will start can not be predicted. This should factor into what data you choose to collect.**

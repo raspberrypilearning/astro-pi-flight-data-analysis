@@ -1,13 +1,13 @@
 ## Introduction
 
-In this project you will analyse real data, captured by either of the two Astro Pi Flight Units onboard the International Space Station, to learn about Life in Space and Life.
+In this project you will analyse real data, captured by either of the two Astro Pi Flight Units onboard the International Space Station, to learn about Life in Space.
 
 You will:
 - Load [Comma Separated Values (CSV)](https://en.wikipedia.org/wiki/Comma-separated_values) into a spreadsheet application.
 - Display the loaded data in a graphical format.
 - Look for anomalies in the data, and try to form rational conclusions about those data points.
 
-![](Graph to be added here)
+![latitude and compass readings plotted against time, with a clear cyclical pattern, but two large spikes that might be worth investigation](images/compass-lat.png)
 
 ### You will need
 
