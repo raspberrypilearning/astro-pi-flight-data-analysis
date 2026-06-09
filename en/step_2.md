@@ -4,7 +4,7 @@
 
 If you have completed the [Sense HAT data logger](https://projects.raspberrypi.org/en/projects/sense-hat-data-logger/) project you will finish with a large Comma Seperated Value (CSV) file, ready to be looked at.
 
-Alternatively you might have completed the [Astro Pi Mission Space Lab](https://astro-pi.org/mission-space-lab/guidelines/life-in-space) challenge and have a CSV to analyse once your data has been returned from the International Space Station.
+Alternatively you might have completed the [Astro Pi Mission Space Lab](https://astro-pi.org/mission-space-lab/) challenge and have a CSV to analyse once your data has been returned from the International Space Station.
 
 --- collapse ---
 ---
